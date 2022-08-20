@@ -3,9 +3,30 @@
 	padding: 30px;
 	width: 750px;
 	background:rgb(233, 185, 97);
-	border-radius: 5px;
+    
+	
 }
-
+.navparent{
+		
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav{
+	padding: 30px;
+	width: 750px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	background-color: rgb(233, 185, 97);
+}
+.head{
+	
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .kanban * {
 	font-family: sans-serif;
 	
@@ -23,7 +44,7 @@
 	margin-bottom: 20px;
 	font-size: 30px;
 	color: rgb(24, 16, 16);
-	font-style:italic;
+	font-style:normal;
 	user-select: none;
 }
 
